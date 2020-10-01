@@ -1,0 +1,10 @@
+.pad-20 {
+    padding: 20px;
+}
+
+@for $pad from 0 through 5 {
+    $val: 10*$pad;
+    .padding-#{$val} {
+        padding: $val
+    }
+}

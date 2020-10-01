@@ -1,0 +1,5 @@
+@mixin border-radius($val) {
+    box-shadow: $val;
+    -moz-window-shadow: $val;
+    
+}
